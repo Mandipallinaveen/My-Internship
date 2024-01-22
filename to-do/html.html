@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  
+
+</head>
+
+<body>
+
+  <div class="background background--dark">
+    
+    <div class="background__img"></div>
+  </div>
+  <div class="central">
+    <div class="central__header">
+      <h1>TODO</h1>
+      <i class="far fa-sun theme-toggle"></i>
+      <i class="far fa-moon theme-toggle"></i>
+    </div>
+
+    <div class="central__create">
+      <input type="text" id="input" placeholder="Create a new todo...">
+    </div>
+
+    <div class="central__tasks">
+      <li class="task">
+        <div class="tick-box">
+          <div class="tick"><img src="./images/blank-logo.png" alt="tick" class="blank-logo"></div>
+        </div>
+        <div class="text">do workout today</div>
+      </li>
+      <li class="task">
+        <div class="tick-box">
+          <div class="tick"><img src="./images/blank-logo.png" alt="tick" class="blank-logo"></div>
+        </div>
+        <div class="text">buy the groceries</div>
+      </li>
+      <li class="task">
+        <div class="tick-box">
+          <div class="tick"><img src="./images/blank-logo.png" alt="tick" class="blank-logo"></div>
+        </div>
+        <div class="text">work on to-do list website</div>
+      </li>
+      <div class="central__footer">
+        <p><span id="counter">5</span> items left</p>
+        <div>
+          <li><a href="#a" class="all">All</a></li>
+          <li><a href="#a" class="active">Active</a></li>
+          <li><a href="#a" class="completed">Completed</a></li>
+        </div>
+        <p><a href="#a" id="clear">Clear completed</a></p>
+      </div>
+    </div>
+
+    <div class="links-outside">
+      <li><a href="#a" class="all">All</a></li>
+      <li><a href="#a" class="active">Active</a></li>
+      <li><a href="#a" class="completed">Completed</a></li>
+    </div>
+
+    <div class="note">
+      <p>Drag and drop to reorder list</p>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
